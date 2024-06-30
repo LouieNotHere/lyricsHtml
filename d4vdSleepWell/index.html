@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="animations.css">
+  <style>
+    #canvas {
+      width: 340px;
+      height: 191px;
+      border: 2px solid #000;
+      border-radius: 5px;
+      margin: auto;
+      background-color: #000;
+      align-content: center;
+    }
+    #lrc {
+      color: #FFFFFF;
+      text-align: center;
+      font-weight: 500;
+      font-size: 15pt;
+      font-family: 'Nunito';
+      margin: 10px;
+      opacity: 0;
+    }
+    button {
+      margin: auto;
+      display: block;
+      padding: 5px;
+      font-size: 13pt;
+      background-color: #222;
+      border: 3px solid #444;
+      border-radius: 5px;
+      color: #FFFFFF;
+    }
+    /* canvas font */
+    @font-face {
+      font-family: 'Nunito';
+      src: url(font.ttf);
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas">
+    <p id="lrc">a</p>
+  </div>
+  <br>
+  <button onclick="init()">Click to start the song!</button>
+  <audio src="audio.mp3" id="audio"></audio>
+  <script src="main.js"></script>
+  <script>
+    var audio = document.getElementById("audio");
+  </script>
+</body>
+</html>

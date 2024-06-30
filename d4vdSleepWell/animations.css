@@ -1,0 +1,86 @@
+/* background changes */
+@keyframes glow {
+  from {
+    background-color: #000;
+  }
+  to {
+    background-color: #224;
+  }
+}
+@keyframes red {
+  from {
+    background-color: #224;
+  }
+  to {
+    background-color: #422;
+  }
+}
+@keyframes redder {
+  from {
+    background-color: #448;
+  }
+  to {
+    background-color: #844;
+  }
+}
+@keyframes redd {
+  from {
+    background-color: #844;
+  }
+  to {
+    background-color: #FF3F3F;
+  }
+}
+@keyframes blueColor {
+  from {
+    background-color: #422;
+  }
+  to {
+    background-color: #448;
+  }
+}
+@keyframes black {
+  from {
+    background-color: #FF3F3F;
+  }
+  to {
+    background-color: #000;
+  }
+}
+
+/* text animations */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInOut2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
